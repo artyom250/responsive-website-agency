@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webify | Homepage</title>
+
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/infinite.css">
+    <link rel="stylesheet" href="./styles/services.css">
+    <link rel="stylesheet" href="./styles/benefits.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/pricing.css">
+    <link rel="stylesheet" href="./styles/faq.css">
+    <link rel="stylesheet" href="./styles/feedbacks.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-middle">
+            <div class="nav-links">
+                <a href="#services" onclick="sidebarFunc()">Services</a>
+                <a href="#works" onclick="sidebarFunc()">Works</a>
+                <a href="#pricing" onclick="sidebarFunc()">Pricing</a>
+                <a href="#contact" onclick="sidebarFunc()">
+                    <div class="green"></div>
+                    <span>Contact Us</span>
+                </a>
+            </div>
+            <i class='bx bx-grid-alt' id="toggle" onclick="sidebarFunc()"></i>
+        </div>
+    </nav>
+
+    <!-- Top -->
+    <div class="top">
+        <a href="index.html" class="logo">
+            <img src="./images/logo.svg" alt="image">
+        </a>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="subhead">
+            <div class="green"></div>
+            <p>Digital Development Agency</p>
+        </div>
+        <center><p class="heading">Crafting <span>Next-Gen</span> Web Experiences</p></center>
+        <div class="links">
+            <a href="#">
+                <i class='bx bx-phone'></i>
+                <span style="color: white;">Book a Call</span>
+            </a>
+            <a href="#">
+                <span>Discover Services</span>
+            </a>
+        </div>
+        <div class="video">
+            <video src="./videos/hero.mp4" muted autoplay loop></video>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="about" data-aos="fade-up">
+        <div>
+            <img src="./images/about.svg" alt="image">
+            <p class="about-desc"><span>At Webify, we specialize in</span> crafting next-gen web experiences <span>that blend creativity with cutting-edge technology.</span> <br><br>We deliver tailored solutions <span>for upgrading your site or creating a new digital platform.</span></p>
+            <a href="#">
+                <i class='bx bxs-briefcase'></i>
+                <span>Our Works</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Infinite -->
+    <div class="marquee-container" data-aos="fade-up">
+        <div class="infinite infinite-left"> 
+            <div>
+                <p>Expert</p>
+                <p>Next-Gen</p>
+                <p>Responsive</p>
+                <p>Strategic</p>
+                <p>Collaborative</p>
+                <p>Progressive</p>
+            </div>
+        </div>
+        <br>
+        <div class="infinite infinite-right"> 
+            <div>
+                <p>Expert</p>
+                <p>Next-Gen</p>
+                <p>Responsive</p>
+                <p>Strategic</p>
+                <p>Collaborative</p>
+                <p>Progressive</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div class="block" id="services">
+        <div class="services">
+            <p class="heading" data-aos="fade-up">Digital Excellence, <span>Delivered</span></p>
+            <div class="service-block" data-aos="fade-up">
+                <div class="s-flex">
+                    <p> Our Services</p>
+                    <p>3 services</p>
+                </div>
+                <div class="s-grid">
+                    <div class="serv">
+                        <img src="./images/services/1.webp" alt="image">
+                        <div class="s-text">
+                            <p class="s-title">Custom Website Development</p>
+                            <p class="s-desc">Web solutions designed to enhance user experience and meet specific business goals.</p>
+                            <a href="#" class="s-link">
+                                <span>Get Started</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="serv">
+                        <img src="./images/services/2.webp" alt="image">
+                        <div class="s-text">
+                            <p class="s-title">Mobile App Development</p>
+                            <p class="s-desc">We create seamless, user-friendly mobile applications for iOS and Android.</p>
+                            <a href="#" class="s-link">
+                                <span>Get Started</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="serv">
+                        <img src="./images/services/3.webp" alt="image">
+                        <div class="s-text">
+                            <p class="s-title">Support and Maintenance</p>
+                            <p class="s-desc">Regular updates, performance boosts, and fixes to keep your system running smoothly.</p>
+                            <a href="#" class="s-link">
+                                <span>Get Started</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s-flex two" data-aos="fade-up">
+                <p>Need custom solution for your needs?</p>
+                <div class="links">
+                    <a href="#">
+                        <i class='bx bx-phone'></i>
+                        <span style="color: white;">Book a Call</span>
+                    </a>
+                    <a href="#">
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits  -->
+    <div class="block">
+        <div class="services">
+            <div class="head-flex" data-aos="fade-up">
+                <p class="heading"><span>Benefits that</span> Drive Success</p>
+                <div class="links">
+                    <a href="#">
+                        <i class='bx bx-phone'></i>
+                        <span style="color: white;">Book a Call</span>
+                    </a>
+                </div>
+            </div>
+            <div class="service-block" data-aos="fade-up">
+                <div class="benefit-grid">
+                    <div class="benefit">
+                        <span class="other">Webify Agency</span>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Senior Developers</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Innovative Development Practices</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Tailored Development Solutions</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Client-Centric Approach</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Rigorous Testing and Validation</p>
+                        </div>
+                    </div>
+                    <div class="benefit">
+                        <span class="other">Other Development Agencies</span>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Junior Developers</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Outdated Technologies & Approaches</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Generic Solution or Off-the-Shelf Products</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Agency-Centric Approach</p>
+                        </div>
+                        <div>
+                            <i class='bx bx-check'></i>
+                            <p>Limited Testing or Inadequate Quality Control</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit-anim" data-aos="fade-up">
+                <div class="anims">
+                    <div>
+                        <img src="./images/benefits/1.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/2.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/3.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/4.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/5.svg" alt="image">
+                    </div>
+                </div>
+                <div class="anims">
+                    <div>
+                        <img src="./images/benefits/1.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/2.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/3.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/4.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/5.svg" alt="image">
+                    </div>
+                </div>
+                <div class="anims">
+                    <div>
+                        <img src="./images/benefits/1.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/2.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/3.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/4.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/5.svg" alt="image">
+                    </div>
+                </div>
+                <div class="anims">
+                    <div>
+                        <img src="./images/benefits/1.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/2.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/3.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/4.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="./images/benefits/5.svg" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="block" id="works">
+        <div class="services">
+            <div class="head-flex" data-aos="fade-up">
+                <p class="heading"><span>Showcase</span> of Excellence</p>
+                <p class="port-desc">Explore our portfolio of innovative digital solutions, showcasing our creativity and expertise in delivering exceptional results.</p>
+            </div>
+            <div class="portfolio" data-aos="fade-up">
+                <div class="work">
+                    <a href="#">
+                        <div class="work-banner">
+                            <img src="./images/portfolio/1.png" alt="image" class="main-img">
+                            <img src="./images/portfolio/1-2.png" alt="image" class="img-hover">
+                        </div>
+                        <div class="work-flex">
+                            <p>Digibi</p>
+                            <a href="#">
+                                <span>View Project</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <a href="#">
+                        <div class="work-banner">
+                            <img src="./images/portfolio/2.png" alt="image" class="main-img">
+                            <img src="./images/portfolio/2-2.png" alt="image" class="img-hover">
+                        </div>
+                        <div class="work-flex">
+                            <p>Bonanza</p>
+                            <a href="#">
+                                <span>View Project</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <a href="#">
+                        <div class="work-banner">
+                            <img src="./images/portfolio/3.png" alt="image" class="main-img">
+                            <img src="./images/portfolio/3-2.png" alt="image" class="img-hover">
+                        </div>
+                        <div class="work-flex">
+                            <p>Algenius</p>
+                            <a href="#">
+                                <span>View Project</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <a href="#">
+                        <div class="work-banner">
+                            <img src="./images/portfolio/4.png" alt="image" class="main-img">
+                            <img src="./images/portfolio/4-2.png" alt="image" class="img-hover">
+                        </div>
+                        <div class="work-flex">
+                            <p>AWilliams</p>
+                            <a href="#">
+                                <span>View Project</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="work">
+                    <a href="#">
+                        <div class="work-banner">
+                            <img src="./images/portfolio/5.png" alt="image" class="main-img">
+                            <img src="./images/portfolio/5-2.png" alt="image" class="img-hover">
+                        </div>
+                        <div class="work-flex">
+                            <p>Squash</p>
+                            <a href="#">
+                                <span>View Project</span>
+                                <i class='bx bxs-right-top-arrow-circle'></i>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="block" id="pricing">
+        <div class="services">
+            <div class="head-flex" data-aos="fade-up">
+                <p class="heading three">Flexible <span>Pricing Plans</span></p>
+                <p class="port-desc">Discover our flexible pricing plans designed to fit your budget, providing clear and competitive rates for all our services.</p>
+            </div>
+            <div class="pricing" data-aos="fade-up">
+                <div class="pack">
+                    <div class="pack-1">
+                        <div class="price-head">
+                            <p>Starter</p>
+                            <p>Small Projects</p>
+                        </div>
+                        <p class="pack-title"><span>Ideal for</span> Small Businesses & Startups</p>
+                        <p class="price">$3,000<span>/mo</span></p>
+                        <div class="links">
+                            <a href="#">
+                                <i class='bx bx-rocket' ></i>
+                                <span style="color: white;">Get Started</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pack-2">
+                        <div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Basic Development</p>
+                            </div>
+                            <div class="pack2-f"> 
+                                <i class='bx bx-check-circle'></i>
+                                <p>Core Functionalities</p>
+                            </div>
+                            <div class="pack2-f"> 
+                                <i class='bx bx-check-circle'></i>
+                                <p>Standard Support</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Weekly Consulting Call</p>
+                            </div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Bi-Weekly Updates</p>
+                            </div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>80 Design Hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pack">
+                    <div class="pack-1">
+                        <div class="price-head">
+                            <p>Professional</p>
+                            <p>Big Projects</p>
+                        </div>
+                        <p class="pack-title"><span>Great for</span> Scaling Businesses & Ventures</p>
+                        <p class="price">$3,000<span>/mo</span></p>
+                        <div class="links">
+                            <a href="#">
+                                <i class='bx bx-rocket' style="color: #1b1b1b;"></i>
+                                <span style="color: #1b1b1b;">Get Started</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pack-2">
+                        <div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Advanced Development</p>
+                            </div>
+                            <div class="pack2-f"> 
+                                <i class='bx bx-check-circle'></i>
+                                <p>Full Feature Set</p>
+                            </div>
+                            <div class="pack2-f"> 
+                                <i class='bx bx-check-circle'></i>
+                                <p>24/7 Priority Support</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Daily Consulting Call</p>
+                            </div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Updates Every 2 Days</p>
+                            </div>
+                            <div class="pack2-f">
+                                <i class='bx bx-check-circle'></i>
+                                <p>128 Design Hours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="s-flex two" data-aos="fade-up">
+                <p>Need custom solution for your needs?</p>
+                <div class="links">
+                    <a href="#">
+                        <i class='bx bx-phone'></i>
+                        <span style="color: white;">Book a Call</span>
+                    </a>
+                    <a href="#">
+                        <span>Contact Us</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Faq -->
+    <div class="block">
+        <div class="services">
+            <p class="heading" data-aos="fade-up">Common <span>Questions</span></p>
+            <div class="faq" data-aos="fade-up">
+                <div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>What types of development services do you offer?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">We provide a wide range of development services including web development, mobile app development, custom software solutions, API integration, support and maintenance.</p>
+                    </div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>How do you ensure the quality of your projects?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">We ensure quality through rigorous testing, code reviews, and adherence to best practices in development. Our senior developers oversee all projects to maintain high standards.</p>
+                    </div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>What is your development process like?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">Our process involves initial consultation, planning, design, development, testing, and deployment. We follow Agile methodologies to ensure flexibility and responsiveness.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>Can you work with existing platforms?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">Yes, we can integrate new solutions with your existing platforms or upgrade legacy systems to improve performance and functionality.</p>
+                    </div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>How do you handle project timelines?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">We create detailed project timelines with clear milestones. Our project managers ensure deadlines are met by coordinating all phases of the development process.</p>
+                    </div>
+                    <div class="quest" onclick="faqFunc()">
+                        <div>
+                            <p>How often will I receive updates on the project?</p>
+                            <i class='bx bx-plus'></i>
+                        </div>
+                        <p class="ans">We provide regular updates based on the plan you choose, ranging from bi-weekly to every 2 days, ensuring you are informed about progress and any issues that arise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedbacks -->
+    <div class="block">
+        <div class="services">
+            <div class="head-flex" data-aos="fade-up">
+                <p class="heading"><span>Voices from</span> Our Clients</p>
+                <div class="links">
+                    <a href="#">
+                        <i class='bx bx-pen'></i>
+                        <span style="color: white;">Contact Us</span>
+                    </a>
+                </div>
+            </div>
+            <div class="feed-grid" data-aos="fade-up">
+
+                <!-- Feedback 1 -->
+                <div class="feed">
+                    <p class="user">Richard Anderson</p>
+                    <p class="reply">Looks Great 🔥</p>
+                    <p class="reply next" style="margin-top: 5px;">You definitely nailed 💅🏻💅🏻 it with our website development. Chatting with your team was such a breeze!</p>
+                    <br>
+                    <p class="user" style="margin-left: auto;">Webify</p>
+                    <p class="reply me" style="margin-left: auto;">Glad you're happy with the results!</p>
+                    <div class="author">
+                        <img src="./images/feedbacks/1.webp" alt="image">
+                        <p>Richard Anderson <span>Founder at Digibi</span></p>
+                    </div>
+                </div>
+
+                <!-- Feedback 2 -->
+                <div class="feed">
+                    <p class="user">Emma Hoffman</p>
+                    <p class="reply next">I loved ❤️❤️ how responsive your team was throughout the project!</p>
+                    <p class="reply" style="margin-top: 5px;">It really made a difference 🥳</p>
+                    <br>
+                    <p class="user" style="margin-left: auto;">Webify</p>
+                    <p class="reply me" style="margin-left: auto;">Happy we could help ❤️</p>
+                    <div class="author">
+                        <img src="./images/feedbacks/2.webp" alt="image">
+                        <p>Emma Hoffman <span>CTO at Squash</span></p>
+                    </div>
+                </div>
+
+                <!-- Feedback 3 -->
+                <div class="feed">
+                    <p class="user">Anna Baker</p>
+                    <p class="reply next">Chatting with your devs felt like talking to experts! 👑🔥</p>
+                    <p class="reply" style="margin-top: 5px;">It shows in the quality of your work.</p>
+                    <br>
+                    <p class="user" style="margin-left: auto;">Webify</p>
+                    <p class="reply me" style="margin-left: auto;">❤️ Thanks for noticing!</p>
+                    <div class="author">
+                        <img src="./images/feedbacks/3.webp" alt="image">
+                        <p>Anna Baker <span>VP at Algenius</span></p>
+                    </div>
+                </div>
+
+                <!-- Feedback 4 -->
+                <div class="feed">
+                    <p class="user">John Williams</p>
+                    <p class="reply">Your support team is awesome 🙌</p>
+                    <p class="reply next" style="margin-top: 5px;">Just wanted to say thanks for the quick bug fixes.</p>
+                    <br>
+                    <p class="user" style="margin-left: auto;">Webify</p>
+                    <p class="reply me" style="margin-left: auto;">Thanks for the shout-out! 😇</p>
+                    <div class="author">
+                        <img src="./images/feedbacks/4.webp" alt="image">
+                        <p>John Williams <span>CEO at Accurex</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="block" id="contact">
+        <div class="services">
+            <div class="head-flex" data-aos="fade-up">
+                <p class="heading four">Become <span>Connected</span></p>
+                <div class="links">
+                    <p class="port-desc">We're here to answer your questions and discuss how we can help you achieve your goals.</p>
+                </div>
+            </div>
+            <div class="contact" data-aos="fade-up">
+                <form>
+                    <p class="contact-head">We look forward to connecting with you!</p>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" style="margin-top: 12.5px;" required>
+                    <textarea placeholder="How can we help you?" style="margin-top: 12.5px; height: 150px;" required></textarea>
+                    <button>
+                        <i class='bx bx-message-square-dots' style="color: white; font-size: 21px;"></i>
+                        <span style="color: white;">Send a Message</span>
+                    </button>
+                </form>
+                <div class="contact-img">
+                    <img src="./images/contact.webp" alt="image">
+                    <div class="contact-img-div">
+                        <p class="contact-head" style="color: white;">Book a time to discuss your next project</p>
+                        <div class="links">
+                            <a href="#">
+                                <i class='bx bx-phone' style="color: #1b1b1b;"></i>
+                                <span>Book a Call</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="subhead">
+                        <div class="green"></div>
+                        <p style="color: white;">Available for New Projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="services">
+            <div class="f-flex" data-aos="fade-up">
+                <a href="#" class="logo">
+                    <img src="./images/logo.svg" alt="image">
+                </a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <span>© 2024, All rights reserved</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
