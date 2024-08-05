@@ -151,12 +151,11 @@ body {
 
 @media(max-width: 800px) {
     .nav-links {
-        pointer-events: none;
+        display: none;
         flex-direction: column;
-        opacity: 0;
         border-radius: 20px;
         transition: 0.3s;
-        transform: translateY(-50px);
+        transform: translateY(-35px);
     }
 
     .nav-links a {
@@ -168,9 +167,7 @@ body {
     }
 
     .nav-links.active {
-        transform: translateY(-25px);
-        pointer-events: all;
-        opacity: 1;
+        display: flex;
     }
 
     .nav-links a:not(:nth-child(1)) {

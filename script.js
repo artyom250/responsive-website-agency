@@ -17,4 +17,9 @@ function sidebarFunc() {
     sidebar.classList.toggle("active");
 }
 
+window.addEventListener('scroll', () => {
+    const navbar = document.querySelector("nav");
+    navbar.classList.toggle("sticky", (window.innerHeight + window.scrollY) >= document.body.offsetHeight);
+});
+
 AOS.init();
